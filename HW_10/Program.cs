@@ -23,7 +23,7 @@ namespace HW_10
             Console.Write("Enter number second: ");
             int second = int.Parse(Console.ReadLine());
 
-            Addition(first, second);
+            Addition(first, second); 
             */
 
 
@@ -45,19 +45,19 @@ namespace HW_10
 //  массива соответственно.
 //массив передается следующим образом: void printArray(int[] array)
 
-
+            /*
 
             int[] array = new int[10];
             for (int i = 0; i < 10; i++) array[i] = i;
 
             PrintArrayMin(array);
             PrintArrayMax(array);
-
+            */
 
             Console.ReadLine();
         }
 
-        static void PrintArrayMax(int[] array)
+        static void PrintArrayMax(int[] array)                               //task 10.9
         {
             int max = array[0];
             for (int i = 0; i < array.Length; i++)
@@ -67,7 +67,7 @@ namespace HW_10
                 Console.WriteLine("Maximum number is: " + max);
         }
 
-        static void PrintArrayMin(int[] array)
+        static void PrintArrayMin(int[] array)                                //task 10.9
         {
             int min = array[0];
             for (int i = 0; i < array.Length; i++)
